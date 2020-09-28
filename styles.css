@@ -1,0 +1,102 @@
+@media only screen and (max-width: 600px) {
+        body {
+                background-color: lightblue;
+                }
+            }
+
+
+body {
+    margin: 0;
+}
+
+/*---------Welcome Section-----------*/
+#welcome-section {
+    height: 105vh;
+    position: relative;
+    background: #444;
+    width: 100%;
+    text-align: center;
+    margin-top: -5%;
+
+}
+
+h1{
+    position: relative;
+    padding-top: 50vh;
+    color: white;
+    font-size: 64px;
+}
+#welcome-section  h2{
+    color: #a00;
+    font-size: 42px;
+    font-weight: 100;
+}
+
+/*------------Navbar-----------*/
+#navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    background: red;
+    height: 10%;
+    width: 100%;
+    text-align: right;
+    z-index: 2;
+}
+
+#navbar a{
+    text-decoration: none;
+    position: relative;
+    height: 100%;
+    top: 15%;
+    padding: 5%;
+    color: white;
+    font-size: 42;
+    
+}
+
+/*-----------Projects Section-------*/
+#projects {
+    background: #509;
+    position: relative;
+    margin: -5%;
+    padding: 5%;
+    text-align: center;
+}
+
+#projects h2{
+    color: white;
+    text-decoration: underline;
+    font-size: 42px;
+}
+
+#projects ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-column-gap: 5%;
+    list-style: none;
+    text-decoration: none;
+
+}
+#projects ul a{
+    text-decoration: none;
+    color: white;
+}
+#projects ul li{
+    position: relative;
+    height: 100%;
+    font-size: 28px;
+    text-decoration: none;
+    background: #444;
+    color: white;
+    bottom: 0;
+}
+#projects ul li img{
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
